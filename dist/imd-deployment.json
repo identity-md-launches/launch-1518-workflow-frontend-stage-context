@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "launchId": "a7f5cefe-94e2-489b-ad44-0719d0540fe6",
+  "chainId": 11155111,
+  "sourceCommit": "bb2ad3a7587d9da2678842e457e610da610fa61f",
+  "attestationHash": "7f6d607d718bd9e805fdec99e1b0bc6d323adf019f8102818b2b6b986a429167",
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0x89b61dadcdb894307727b7edb55d6c9bd9c611b9",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "abiPath": "abi/LaunchToken.json"
+    },
+    {
+      "name": "SwarmCats",
+      "address": "0xc9fda45820464da251bddc8cba9900d02b2de15a",
+      "abiHash": "46a8c15da53339efe05723c6663e57afcc7d18863dfc6e66f28ed3d19fce8184",
+      "abiPath": "abi/SwarmCats.json"
+    }
+  ],
+  "assets": [
+    {
+      "path": "abi/LaunchToken.json",
+      "sha256": "9578fcb499b4ba5fac51462a67a2654d9f803e0ea3af9bdb19130ff695808542"
+    },
+    {
+      "path": "abi/SwarmCats.json",
+      "sha256": "375322d283cc093e5aebec2bcc9f219873f1919d03a5096a0a77975e7edeadf5"
+    },
+    {
+      "path": "assets/ccip-cY07qdQQ.js",
+      "sha256": "06012132c1cd27db47a3c6863863117bb7805a20240ff5a041565f24f9c09549"
+    },
+    {
+      "path": "assets/index-CTeoUxws.css",
+      "sha256": "7213c1304dd8a863a7500d573a372079feba7a5c2a9dab3164b55a8c180df469"
+    },
+    {
+      "path": "assets/index-D4_x7lpf.js",
+      "sha256": "5c554f78d43080cff2c3ff0bbdb8d9687bc819ae55bd7a8a12c9665a42abaf91"
+    },
+    {
+      "path": "assets/space-grotesk-latin-400-normal-CJ-V5oYT.woff2",
+      "sha256": "65fd17fcbd2e2f522940b5f67ead3d23329e02891aa5495e74d11a499c0b0673"
+    },
+    {
+      "path": "assets/space-grotesk-latin-500-normal-lFbtlQH6.woff2",
+      "sha256": "1b1a8131d9edf975d9decee81e2f2bf504812f7a4f498e5500f28a613e22e64c"
+    },
+    {
+      "path": "assets/space-grotesk-latin-700-normal-RjhwGPKo.woff2",
+      "sha256": "35f8aec56cfd5cbfdb03cc68733a54a0b05bb3617ffcd5fd332badc0b045ca55"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "a43bf7ff80e1289149504b66178393b81e74017d8ce4d3b2737d954a2bfc4028"
+    },
+    {
+      "path": "font-license.txt",
+      "sha256": "18a4de52385f6b988782639d5d0cc1326e5a8c2de9a7f01d7b20d9aedcc60943"
+    },
+    {
+      "path": "index.html",
+      "sha256": "5a458b97d4945cae6c0799905023fc9f201f7110f64e630f08644bf488a47f66"
+    },
+    {
+      "path": "share.png",
+      "sha256": "e90c07be9e06518a4530c30340196547e598de4d94181294cd5e06cf033b5391"
+    }
+  ],
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0xa0602cb30558d5dd17415b6268a4feea3a0ca000",
+    "currency0": "0x0000000000000000000000000000000000000000",
+    "currency1": "0x89b61dadcdb894307727b7edb55d6c9bd9c611b9",
+    "tickSpacing": 60
+  },
+  "network": {
+    "chainId": 11155111,
+    "name": "Sepolia",
+    "testnet": true,
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "explorer": "https://sepolia.etherscan.io",
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [
+      "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+      "https://www.alchemy.com/faucets/ethereum-sepolia"
+    ],
+    "uniswapV4": {
+      "poolManager": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "universalRouter": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "quoter": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "stateView": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "positionManager": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0xaa36a7",
+    "chainName": "Sepolia",
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://sepolia.etherscan.io"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-10-13T06:24:52.663Z",
+  "broadcastTransactions": false,
+  "chainId": 11155111,
+  "rpc": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": 11155111,
+      "matched": true
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "chainId": 11155111,
+      "matched": true
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "chainId": 11155111,
+      "matched": true
+    }
+  ],
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0x89b61dadcdb894307727b7edb55d6c9bd9c611b9",
+      "codeBytes": 1722
+    },
+    {
+      "name": "SwarmCats",
+      "address": "0xc9fda45820464da251bddc8cba9900d02b2de15a",
+      "codeBytes": 8415
+    }
+  ],
+  "collection": {
+    "owner": "0x02b4bd9cc103fD502B2F3f601E29E6Ae2039AC85",
+    "pendingOwner": "0x0000000000000000000000000000000000000000",
+    "totalSupply": "5",
+    "MAX_SUPPLY": "10000",
+    "MINT_FEE": "500000000000000",
+    "paused": false,
+    "provenanceSet": true,
+    "baseURI": "ipfs://bafybeicxayonmssrh3btjwkqg6txdpz5nztstlp5vo4tkmtol7sih664gm/",
+    "unrevealedURI": "",
+    "metadataFrozen": false,
+    "revealed": false,
+    "reserveMinted": "0"
+  },
+  "pool": {
+    "id": "0x369de2b915c07ba5c89f5410ccb15b91589325c6d5cda2b8fca894f2b5380fef",
+    "poolManager": {
+      "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "codeBytes": 24009
+    },
+    "universalRouter": {
+      "address": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "codeBytes": 19540
+    },
+    "quoter": {
+      "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "codeBytes": 5820
+    },
+    "stateView": {
+      "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "codeBytes": 3531
+    },
+    "positionManager": {
+      "address": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "codeBytes": 23877
+    },
+    "permit2": {
+      "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "codeBytes": 9152
+    },
+    "liquidity": "0",
+    "slot0": [
+      "560227709747861399187319382274582",
+      177284,
+      0,
+      12500
+    ]
+  }
+}

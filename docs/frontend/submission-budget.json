@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-13T06:47:29.879Z",
+  "uncompressedTreeBytes": 2427202,
+  "scopedBytes": 1368534,
+  "exportBytes": 696325,
+  "assets": 12,
+  "permittedPathsOnly": true,
+  "dependencyCachesExcluded": true,
+  "submodules": 0,
+  "maxSubmissionBytes": 8388608
+}

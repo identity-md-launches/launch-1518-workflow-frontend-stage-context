@@ -1,0 +1,61 @@
+{
+  "chainId": 11155111,
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0xa0602cb30558d5dd17415b6268a4feea3a0ca000",
+    "currency0": "0x0000000000000000000000000000000000000000",
+    "currency1": "0x89b61dadcdb894307727b7edb55d6c9bd9c611b9",
+    "tickSpacing": 60
+  },
+  "repoUrl": "https://github.com/identity-md-launches/launch-1512-swarmcats",
+  "version": 1,
+  "launchId": "a7f5cefe-94e2-489b-ad44-0719d0540fe6",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 12500,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Sepolia release of Swarm Cats with the Loom launch token. SwarmCats constructor arguments are initialOwner, creator, platform and reserve, all resolving to $owner. The collection's name, symbol, supply cap, mint fee and wallet limit are fixed in the accepted source. The collection has no dependency on the launch token. Metadata URIs start empty; the owner supplies the real provenance hash once before any mint and configures metadata after deployment. The reveal seed is an owner-submitted oracle value without on-chain oracle verification. No factory initialization calls are required. The factory supplies the pool guard and MerkleDistributor. The pool values follow the launch context; the deployer derives the effective opening price from the policy's 20 ETH opening market cap. Source publication, attestation, independent review, admission, deployment and frontend publication are handled by subsequent launch stages.",
+    "token": {
+      "name": "Loom",
+      "symbol": "LOOM",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "SwarmCats",
+        "constructorArgs": [
+          "$owner",
+          "$owner",
+          "$owner",
+          "$owner"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x8e292684d5aa84e7eecacc0a4feffb733e8fa8b3aed90dae66e667a50994ae57",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0x89b61dadcdb894307727b7edb55d6c9bd9c611b9",
+      "blockNumber": 11904079,
+      "creationCodeHash": "90c768a03f4d49826a6ce32c477caa6babd549cd583c2d123f57a85dbc1ec388"
+    },
+    {
+      "name": "SwarmCats",
+      "txHash": "0x8e292684d5aa84e7eecacc0a4feffb733e8fa8b3aed90dae66e667a50994ae57",
+      "abiHash": "46a8c15da53339efe05723c6663e57afcc7d18863dfc6e66f28ed3d19fce8184",
+      "address": "0xc9fda45820464da251bddc8cba9900d02b2de15a",
+      "blockNumber": 11904079,
+      "creationCodeHash": "b2e8517ba66225bc1f7be75af4108b57385e2a130613e33c1020cd8d9bcfe53b"
+    }
+  ],
+  "sourceCommit": "bb2ad3a7587d9da2678842e457e610da610fa61f",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "7f6d607d718bd9e805fdec99e1b0bc6d323adf019f8102818b2b6b986a429167"
+}

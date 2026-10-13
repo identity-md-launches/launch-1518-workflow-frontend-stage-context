@@ -1,0 +1,7 @@
+{
+  "completeHistory": true,
+  "gitBundleVerifyPassed": true,
+  "bundleBelowBytes": 1048576,
+  "requiredMaximumBytes": 8388608,
+  "method": "Copy every nonignored scoped file into a disposable clone of the supplied repository, commit there, create a full-history Git bundle, verify it, and assert its size. The archive and Git metadata remain under /tmp; only source, export and evidence are delivered."
+}
